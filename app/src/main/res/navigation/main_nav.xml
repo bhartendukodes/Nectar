@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="product"
+            app:argType="com.bhartenduKodes.nectar.data.model.Product" />
+        <action
+            android:id="@+id/action_detailsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/findProductFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.FindProductFragment"
+        android:label="fragment_find_product"
+        tools:layout="@layout/fragment_find_product" >
+        <action
+            android:id="@+id/action_findProductFragment_to_beveragesFragment"
+            app:destination="@id/beveragesFragment"
+            app:enterAnim="@anim/exit_to_left"
+            app:exitAnim="@anim/enter_from_right"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+        <action
+            android:id="@+id/action_findProductFragment_to_freshFruitsFragment"
+            app:destination="@id/freshFruitsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+        <action
+            android:id="@+id/action_findProductFragment_to_meatAndFishFragment"
+            app:destination="@id/meatAndFishFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+        <action
+            android:id="@+id/action_cartFragment_to_checkOutFragment"
+            app:destination="@id/checkOutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/beveragesFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.BeveragesFragment"
+        android:label="fragment_beverages"
+        tools:layout="@layout/fragment_beverages" >
+        <action
+            android:id="@+id/action_beveragesFragment_to_findProductFragment"
+            app:destination="@id/findProductFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+        <action
+            android:id="@+id/action_beveragesFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/freshFruitsFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.FreshFruitsFragment"
+        android:label="fragment_fresh_fruits"
+        tools:layout="@layout/fragment_fresh_fruits" >
+        <action
+            android:id="@+id/action_freshFruitsFragment_to_findProductFragment"
+            app:destination="@id/findProductFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+        <action
+            android:id="@+id/action_freshFruitsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/meatAndFishFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.MeatAndFishFragment"
+        android:label="fragment_meat_and_fish"
+        tools:layout="@layout/fragment_meat_and_fish" >
+        <action
+            android:id="@+id/action_meatAndFishFragment_to_findProductFragment"
+            app:destination="@id/findProductFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+        <action
+            android:id="@+id/action_meatAndFishFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+        <action
+            android:id="@+id/action_meatAndFishFragment_to_detailsFragment2"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/pop_enter_from_left"
+            app:popExitAnim="@anim/pop_exit_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <dialog
+        android:id="@+id/checkOutFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.CheckOutFragment"
+        android:label="fragment_check_out"
+        tools:layout="@layout/fragment_check_out" >
+        <argument
+            android:name="amount"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_checkOutFragment_to_orderAcceptedFragment"
+            app:destination="@id/orderAcceptedFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/orderAcceptedFragment"
+        android:name="com.bhartenduKodes.nectar.ui.fragments.OrderAcceptedFragment"
+        android:label="fragment_order_accepted2"
+        tools:layout="@layout/fragment_order_accepted2" >
+        <action
+            android:id="@+id/action_orderAcceptedFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="app_color">#53B175</color>
+    <color name="text_color_faded_white">#92FCFCFC</color>
+    <color name="homer_lrestrontext">#000</color>
+    <color name="homeneartext">#808a91</color>
+
+    <color name="black_text">#181725</color>
+    <color name="label_color">#7C7C7C</color>
+
+    <color name="ic_launcher_background">#BEA3A3</color>
+    <color name="labels">#7C7C7C</color>
+    <color name="transparent">#0000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="green">#53B175</color>
+    <color name="blackish_green">#1AAF51</color>
+    <color name="textColorBlackBold">#181725</color>
+    <color name="textColorBlackLight">#181725</color>
+    <color name="light_gray">#F2F3F2</color>
+    <color name="dark_gray">#7C7C7C</color>
+    <color name="creamy">#FEF1E4</color>
+    <color name="creamy_blue">#E5F3EA</color>
+
+    <color name="pulses_bg">#fef1e4</color>
+    <color name="rice_bg">#e5f3ea</color>
+    <color name="oil">#fef6ed</color>
+    <color name="meat">#fde8e4</color>
+    <color name="bakery">#f4ebf7</color>
+    <color name="eggs">#fff8e5</color>
+    <color name="beverage">#f0f4fc</color>
+
+    <color name="view_underline">#E2E2E2</color>
+
+
+
+
+</resources>

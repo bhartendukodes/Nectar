@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_marginHorizontal="14dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="4"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivProductImage"
+        android:layout_width="10dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_red_pepper"/>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.6"
+        android:layout_marginStart="14dp"
+        android:padding="8dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bell Pepper Red"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1kg_price"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/ibSub"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_minux"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="@id/tvItemPrice"
+                app:layout_constraintCircleRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tvItemPrice"
+                app:layout_constraintVertical_bias="0.545" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/one"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="4dp"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/ibAdd"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_add"
+                android:tint="@color/green"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="@id/tvItemPrice"
+                app:layout_constraintCircleRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tvItemPrice"
+                app:layout_constraintVertical_bias="0.545" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginVertical="16dp"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivCancelButton"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ic_cross"
+            android:layout_gravity="end"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvItemPrice"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="end"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginTop="2dp"
+
+            android:text="@string/_36_4_99"
+            android:textColor="@color/textColorBlackBold"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/view_underline"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

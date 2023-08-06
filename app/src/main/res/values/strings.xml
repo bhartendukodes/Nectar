@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Nectar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome \nto our store</string>
+    <string name="on_boarding_text">Ger your groceries in as fast as one hour</string>
+    <string name="get_started">Get Started</string>
+    <string name="get_your_groceries_with_nectar">Get your groceries \nwith nectar</string>
+    <string name="warning">Warning</string>
+    <string name="email_address">Email</string>
+    <string name="password">Password</string>
+    <string name="loging">Loging</string>
+    <string name="email_details">Enter your emails and password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="log_in">Log In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="credential">Enter your credentials to continue</string>
+    <string name="username">Username</string>
+    <string name="already">Already have an account?</string>
+    <string name="sign_in">SignIn</string>
+
+    <string name="termscondition">By continuing you agree to our <font color='#53B175'>Terms of Service</font> \nand <font color='#53B175'>Privacy Policy</font>.</string>
+    <string name="india_country_code">+91</string>
+    <string name="or_connect_with_social_media">Or connect with social media</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="no">Mobile Number</string>
+    <string name="code">Code</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="hint">_ _ _ _</string>
+    <string name="select">Select Your Location</string>
+    <string name="switch_on_your_location_to_stay_in_tune_with_what_s_happening_in_your_area">Switch on your location to stay in tune with \nwhat\'s happening in your area</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="see_all">See All</string>
+    <string name="pulses">Pulses</string>
+    <string name="demo">NECTAR</string>
+    <string name="exclusive_offer">Exclusive Offer</string>
+    <string name="natural_red_apples">Natural Red Apples</string>
+    <string name="_1">1</string>
+    <string name="add_to_basket">Add To Basket</string>
+    <string name="cart">My Cart</string>
+    <string name="find_product">Find Product</string>
+    <string name="fresh_fruits_n_vegetable">Fresh Fruits \n Vegetable</string>
+    <string name="text">Text</string>
+    <string name="bhartendu_kumar">Bhartendu Kumar</string>
+    <string name="email">bhartendukr33@gmail.com</string>
+    <string name="orders">Orders</string>
+    <string name="log_out">Log Out</string>
+    <string name="shop">Shop</string>
+    <string name="explore">Explore</string>
+    <string name="carts">Cart</string>
+    <string name="favourite">Favourite</string>
+    <string name="account">Account</string>
+    <string name="_36_4_99">$4.99</string>
+    <string name="_7pcs_price">7pcs, Price</string>
+    <string name="_1kg_price">1kg, Price</string>
+    <string name="one">1</string>
+    <string name="bannana">Bannana</string>
+    <string name="_325ml_price">325ml, price</string>
+    <string name="beverages">Beverages</string>
+    <string name="demo_text">Demo Text</string>
+    <string name="emails">Email</string>
+
+
+    <string name="facebook_application_id">881227932930904</string>
+    <string name="fb_login_protocol_scheme">fb881227932930904</string>
+    <string name="enter_your_4_digit_code">Enter Your 4-digit code</string>
+    <string name="Beverages">Beverage</string>
+    <string name="meatandFish">Meat And Fish</string>
+    <string name="_1kg_prices">1kg, Price</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="long_char">A character can be any letter, number, punctuation, special character, or space. Each of these characters takes up one byte of space in a computer\'s memory. Some Unicode characters, like emojis and some letters in non-Latin alphabets</string>
+    <string name="ratings">Ratings</string>
+    <string name="_100gr">100gr</string>
+    <string name="nutritions">Nutritions</string>
+    <string name="Review">Review</string>
+    <string name="organic_bananas">Organic Bananas</string>
+
+
+</resources>

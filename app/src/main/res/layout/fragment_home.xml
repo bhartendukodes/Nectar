@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="24dp">
+
+        <include
+            layout="@layout/tab_view_new"
+            android:id="@+id/view" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            app:srcCompat="@drawable/ic_carrot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:layout_constraintStart_toStartOf="parent"
+             />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitleDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/demo"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchViewStore"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_round_corner"
+            app:iconifiedByDefault="false"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleDemo"
+            app:queryBackground="@null"
+            app:queryHint="Search Store"
+            app:searchIcon="@drawable/ic_search" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exlusiveOffer"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="6dp"
+            app:layout_constraintTop_toBottomOf="@id/searchViewStore">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/exlusiveOffierSlider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:sliderAnimationDuration="800"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="800"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="12dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="2.4dp"
+                app:sliderIndicatorRadius="1.8dp"
+                app:sliderIndicatorSelectedColor="@color/green"
+                app:sliderIndicatorUnselectedColor="@color/dark_gray"
+                app:sliderScrollTimeInSec="3"
+                app:sliderStartAutoCycle="true" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvExclusiveOffers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/exclusive_offer"
+            android:textColor="@color/textColorBlackBold"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/exlusiveOffer"
+            app:layout_constraintTop_toBottomOf="@id/exlusiveOffer" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeeAllExlusiveOffers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/see_all"
+            android:textColor="#2E7D32"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvExclusiveOffers"
+            app:layout_constraintEnd_toEndOf="@id/exlusiveOffer"
+            app:layout_constraintTop_toTopOf="@id/tvExclusiveOffers" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvExclusiveOffers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal"
+            tools:listitem="@layout/offer_price"
+            android:overScrollMode="never"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvExclusiveOffers"
+             />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvGroceries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:text="Best Selling"
+            android:fontFamily="@font/opensans_bold"
+            android:textColor="@color/textColorBlackBold"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rvExclusiveOffers" />
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeeAllGroceries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/see_all"
+            android:textColor="#2E7D32"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvGroceries"
+            app:layout_constraintEnd_toEndOf="@id/rvExclusiveOffers"
+            app:layout_constraintTop_toTopOf="@id/tvGroceries" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBestSelling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:overScrollMode="never"
+            tools:listitem="@layout/item_best"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintTop_toBottomOf="@id/tvGroceries"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBestSellings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:text="Groceries"
+            android:fontFamily="@font/opensans_bold"
+            android:textColor="@color/textColorBlackBold"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rvBestSelling" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeeAllBestSelling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/see_all"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvBestSellings"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvBestSellings" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvGroceries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:overScrollMode="never"
+            android:paddingBottom="20dp"
+            tools:listitem="@layout/layout_groceries"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintTop_toBottomOf="@id/tvBestSellings"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+

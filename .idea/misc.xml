@@ -1,0 +1,44 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Nectar/app/src/main/res/drawable-v24/ic_applogo.xml" value="0.341" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/bg_round_corner.xml" value="0.208" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_applogo.xml" value="0.341" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_bg_round_btn.xml" value="0.1" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_bg_round_btn_transparent.xml" value="0.208" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_eye.xml" value="0.341" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_eye_hide.xml" value="0.34" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_mail.xml" value="0.34" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_minux.xml" value="0.208" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_password_toggle.xml" value="0.341" />
+        <entry key="..\:/Nectar/app/src/main/res/drawable/ic_search.xml" value="0.11" />
+        <entry key="..\:/Nectar/app/src/main/res/font/montserrat.xml" value="0.194921875" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/activity_authentication.xml" value="0.33489583333333334" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/activity_fullscreen.xml" value="0.2078125" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/activity_splash.xml" value="0.134375" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_details.xml" value="0.2" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_home.xml" value="0.22239583333333332" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_on_boarding.xml" value="0.152" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_phone_number.xml" value="0.2" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_select_location.xml" value="0.33489583333333334" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_sign_in.xml" value="0.20912547528517111" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_sign_up.xml" value="0.2" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_splash.xml" value="0.33489583333333334" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/fragment_verification.xml" value="0.264" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/item_best.xml" value="0.22135416666666666" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/layout_groceries.xml" value="0.221875" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/loading_view.xml" value="0.22239583333333332" />
+        <entry key="..\:/Nectar/app/src/main/res/layout/offer_price.xml" value="0.22239583333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="14dp">
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:padding="4dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_text"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        app:fontFamily="@font/roboto_bold"
+        android:padding="4dp"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_filter"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:background="@android:color/transparent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

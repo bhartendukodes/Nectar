@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="6dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.FindProductFragment">
+
+
+    <include
+        android:id="@+id/incProduct"
+        layout="@layout/tab_view" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchViewStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_round_corner_second"
+        app:iconifiedByDefault="false"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleDemo"
+        app:queryBackground="@null"
+        app:queryHint="Search Store"
+        app:searchIcon="@drawable/ic_search" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFindProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_marginTop="14dp"
+        android:overScrollMode="always"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:itemCount="16"
+        tools:listitem="@layout/list_find_products" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
