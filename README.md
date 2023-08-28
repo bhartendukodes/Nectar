@@ -13,4 +13,12 @@ Tech stack:-
 🚀 Managing MVVM architecture with RoomDatabase, Firebase integration, Navigation Components, and ViewModel to create a seamless and dynamic app experience! 📱💡
 
 
-Embark on a shopping adventure like never before with our innovative Ecommerce app. Shop, save favorites, and embrace the journey! 🌟🛍️ #EcommerceEnchantment #FirebaseMagic #MVVMArchitecture #SeamlessShopping #PersonalizedExperience #ExploreProducts #ShopWithConfidence
+Embark on a shopping adventure like never before with our innovative Ecommerce app. Shop, save favorit
+
+
+es, and embrace the journey! 🌟🛍️ #EcommerceEnchantment #FirebaseMagic #MVVMArchitecture #SeamlessShopping #PersonalizedExperience #ExploreProducts #ShopWithConfidence
+
+
+
+https://github.com/bhartendukodes/Nectar/assets/90476710/fe2e3731-7066-48c5-8c9d-cbbcc96204fc
+
